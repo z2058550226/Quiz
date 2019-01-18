@@ -15,6 +15,8 @@
 		A13E892121EC890E00A3FF02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A13E892021EC890E00A3FF02 /* main.m */; };
 		A13E892B21EC890F00A3FF02 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13E892A21EC890F00A3FF02 /* QuizTests.m */; };
 		A13E893621EC890F00A3FF02 /* QuizUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A13E893521EC890F00A3FF02 /* QuizUITests.m */; };
+		A13E894921EC8EF500A3FF02 /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A13E894721EC8EF500A3FF02 /* BNRQuizViewController.m */; };
+		A13E894A21EC8EF500A3FF02 /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A13E894821EC8EF500A3FF02 /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		A13E893121EC890F00A3FF02 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13E893521EC890F00A3FF02 /* QuizUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizUITests.m; sourceTree = "<group>"; };
 		A13E893721EC890F00A3FF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13E894621EC8EF500A3FF02 /* BNRQuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		A13E894721EC8EF500A3FF02 /* BNRQuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		A13E894821EC8EF500A3FF02 /* BNRQuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,9 @@
 				A13E891C21EC890E00A3FF02 /* LaunchScreen.storyboard */,
 				A13E891F21EC890E00A3FF02 /* Info.plist */,
 				A13E892021EC890E00A3FF02 /* main.m */,
+				A13E894621EC8EF500A3FF02 /* BNRQuizViewController.h */,
+				A13E894721EC8EF500A3FF02 /* BNRQuizViewController.m */,
+				A13E894821EC8EF500A3FF02 /* BNRQuizViewController.xib */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -235,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13E894A21EC8EF500A3FF02 /* BNRQuizViewController.xib in Resources */,
 				A13E891E21EC890E00A3FF02 /* LaunchScreen.storyboard in Resources */,
 				A13E891B21EC890E00A3FF02 /* Assets.xcassets in Resources */,
 				A13E891921EC890D00A3FF02 /* Main.storyboard in Resources */,
@@ -262,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13E894921EC8EF500A3FF02 /* BNRQuizViewController.m in Sources */,
 				A13E891621EC890D00A3FF02 /* ViewController.m in Sources */,
 				A13E892121EC890E00A3FF02 /* main.m in Sources */,
 				A13E891321EC890D00A3FF02 /* AppDelegate.m in Sources */,
@@ -436,7 +446,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q96NX4Y9KZ;
 				INFOPLIST_FILE = Quiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q96NX4Y9KZ;
 				INFOPLIST_FILE = Quiz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
